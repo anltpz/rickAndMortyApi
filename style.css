@@ -1,0 +1,116 @@
+*{
+    margin: 0; padding: 0; box-sizing: 0;
+}
+
+body
+{
+    font-family: 'montserrat',sans-serif;
+    color: #fff;
+    background-position: center;
+
+}
+
+.app
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgb(0, 0, 0,.7);
+    min-height: 100vh;
+}
+.header {
+    padding: 50px 20px 30px 20px;
+    width: 30%;
+    
+}
+.header h1 
+{
+    font-size: 40px;
+}
+.header input
+{
+    width: 100%;
+    height: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    
+
+}
+
+.temp
+{
+    font-size: 15px;
+    background-color: aliceblue;
+}
+
+.content
+{
+    height: auto;
+    width: 100vh;
+    align-items: center;
+}
+
+.cart-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.cart 
+{
+    
+    display: flex;
+    min-width: none;
+    margin: 15px;
+    background:rgb(32, 35, 41);
+    border-radius: 13px;
+}
+.cart-img img
+{
+    width: 130px;
+    border-top-left-radius: 6px;
+}
+.cart-img p 
+{
+    background-color: #4CAF50;
+}
+.cart h6{
+    color: white;
+}
+.cart-detail
+{
+    margin: 10px;
+}
+.cart-detail h6{
+    margin-top: 6px;
+    
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: bisque;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .information span 
+  {
+    margin-left: 10px;
+  }
